@@ -1,0 +1,19 @@
+.carousel-root .control-arrow {
+    display: none;
+}
+
+.carousel .slide img {
+    height: 100vh;
+    width: 100%;
+    vertical-align: top;
+}
+
+.glide{
+    height: auto!important;
+}
+
+/* Add this to your CSS file */
+.selected-link {
+  
+    border-bottom: 2px solid #00bcd4!important; /* Change to the color you want for the border */
+  }
