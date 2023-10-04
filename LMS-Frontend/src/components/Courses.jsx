@@ -1,4 +1,3 @@
-import React from 'react';
 import aicard from '../assets/aicard.png'
 import fullstack from '../assets/fullstackcard.webp'
 import uiux from '../assets/uiuxcard.jpeg'
@@ -53,6 +52,12 @@ const coursesData = [
 
 function Courses() {
   return (
+    <div className='pt-20 md:pt-20'>
+    <div className="flex  flex-col items-center">
+        <div className="section-title mb-8 flex" data-aos="fade-up">
+          <h1 className="text-xl md:text-3xl font-bold md:font-bold text-center">My Courses</h1>
+        </div>
+        </div>
     <div className="grid grid-cols-1 md:grid-cols-3 gap-10 p-4 md:ml-20 md:mr-10">
       {coursesData.map((course, index) => (
         <div
@@ -70,6 +75,7 @@ function Courses() {
           </div>
         </div>
       ))}
+    </div>
     </div>
   );
 }
